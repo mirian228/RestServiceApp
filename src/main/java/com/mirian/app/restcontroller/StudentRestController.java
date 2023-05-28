@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/api")
 public class StudentRestController {
     @GetMapping("/students")
-    public List<Student> getAllStudents() {
+    public List<Student> getStudents() {
         List<Student> theStudents = new ArrayList<>();
         theStudents.add(new Student("Poornima", "Patel"));
         theStudents.add(new Student("Mario", "Rossi"));
